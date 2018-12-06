@@ -1,5 +1,6 @@
-# !/usr/bin/python
 # -*- coding:utf-8 -*-
+# author Jinglebo
+# date 2018/11/23
 
 import math
 import numpy as np
@@ -7,6 +8,7 @@ import matplotlib.pyplot as plt
 import sklearn.datasets as ds
 import matplotlib.colors
 from datetime import datetime
+import sklearn.preprocessing 
 
 
 def draw_scatter(data):
